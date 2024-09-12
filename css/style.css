@@ -19,8 +19,10 @@ header {
     background-color: black;
 }
 
-#logo {
-    color: #ffffff;
+.logo {
+    width: 15%;
+    user-select: none;
+    cursor: pointer;
 }
 
 .navegacion a {
@@ -50,3 +52,12 @@ header {
     transform-origin: left;
 }
 
+/*SECTION 1*/
+.banner {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}

@@ -19,7 +19,7 @@ Fecha de primera entrega: 19/09/2024
 En este apartado tendrán que definir:
 - Logo
 <img src="/daVinci/img/logo1.svg" alt="logo" width="150"/>
-- Paleta de colores: #000000 (Negro), #3D2C2E (Marrón oscuro), #886F68 (Terracota suave), #D1CCDC (Gris claro) y #FFFFFF (Blanco)
+- Paleta de colores: #000000 (Negro), #3D2C2E (Marrón oscuro), #886F68 (Terracota suave), #D1CCDC (Gris claro) y #FFFFFF (Blanco).
 - Tipografías: Oswald para los títulos y Poppins para los textos.
 - Estilos: Minimalista, moderno, con tonos oscuros y neutros que transmiten una imagen sobria y auténtica.
 - Palabras clave que se utilicen: Urbano, under, oversize, alternativo, moda, comodidad, arte.
