@@ -17,13 +17,13 @@ Fecha de primera entrega: 19/09/2024
 
 ## 3) Características visuales
 En este apartado tendrán que definir:
-- Logo
-<img src="/daVinci/img/logo1.svg" alt="logo" width="150"/>
+- Logo:
+<img src="/img/logo1.svg" alt="logo" width="450"/> <img src="/img/blancologo.svg" alt="logo" width="450"/>.
 - Paleta de colores: #000000 (Negro), #3D2C2E (Marrón oscuro), #886F68 (Terracota suave), #D1CCDC (Gris claro) y #FFFFFF (Blanco).
 - Tipografías: Oswald para los títulos y Poppins para los textos.
 - Estilos: Minimalista, moderno, con tonos oscuros y neutros que transmiten una imagen sobria y auténtica.
 - Palabras clave que se utilicen: Urbano, under, oversize, alternativo, moda, comodidad, arte.
-- Eslogan: El arte de reinventar tu estilo
+- Eslogan: El arte de reinventar tu estilo.
 - Imagen general que se desea transmitir: Transmitimos una imagen de libertad, autenticidad y rebeldía, enfocada en quienes buscan diferenciarse a través de la moda. El diseño del sitio reflejará un estilo limpio pero con un toque disruptivo y urbano.
 
 ## 4) Descripción del sitio web
@@ -34,7 +34,7 @@ Diseñar un gráfico. en forma de organigrama, en el que se muestre las seccione
 Encargada del diseño de la interfaz de usuario, la experiencia del usuario y la maquetación del sitio web, asegurando que la plataforma sea visualmente atractiva y fácil de navegar.
 
 - **Programador (Vanina S. Vilte)**:
-Responsable del desarrollo del sitio, implementación de funcionalidades, integración con bases de datos, y asegurar el rendimiento técnico del e-commerce.
+Responsable del desarrollo del sitio, implementación de funcionalidades y asegurar el rendimiento técnico del e-commerce.
 
 - **Comunicador Web (Anabela C. Castellon)**:
 A cargo de la creación de contenido para el sitio y las redes sociales, la estrategia de marketing digital, y la gestión de las interacciones con los usuarios.
