@@ -84,7 +84,7 @@ Lema promocional: "Pagá menos, llevá más," que incentiva a los usuarios a apr
 - Descripción: Esta sección del sitio web permite a los usuarios obtener información sobre las tiendas físicas de Davinci. Los usuarios pueden ver la ubicación de cada tienda en un mapa, así como detalles clave como dirección, horario de atención, teléfono y correo electrónico de contacto.
 
 --Tiendas mostradas:--
-  - Palermo: 
+- Palermo: 
   - Dirección: El Salvador 4577 - Palermo Soho
   - Horario: Lunes a Domingos de 12hs a 20hs
   - Teléfono: +54 9 11 2233-4455
