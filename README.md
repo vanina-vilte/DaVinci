@@ -41,7 +41,7 @@ Lema promocional: "Pagá menos, llevá más," que incentiva a los usuarios a apr
 - Para compras superiores a $200.000, los envíos son gratuitos, lo que atrae a los usuarios que buscan ahorrar en gastos de envío.
 
 --Pago en Cuotas:--
--Los clientes pueden pagar en hasta 6 cuotas sin interés con tarjetas de crédito bancarias, lo que facilita el acceso a productos de mayor valor.También se ofrece la opción de 9 y 12 cuotas sin interés en compras superiores a $2.000.000 y $3.000.000, respectivamente.
+- Los clientes pueden pagar en hasta 6 cuotas sin interés con tarjetas de crédito bancarias, lo que facilita el acceso a productos de mayor valor.También se ofrece la opción de 9 y 12 cuotas sin interés en compras superiores a $2.000.000 y $3.000.000, respectivamente.
 
 - Productos Destacados: Sección dedicada a mostrar las sudaderas más populares de la tienda, con precios y facilidades de pago claramente indicadas.
 
@@ -84,12 +84,12 @@ Lema promocional: "Pagá menos, llevá más," que incentiva a los usuarios a apr
 - Descripción: Esta sección del sitio web permite a los usuarios obtener información sobre las tiendas físicas de Davinci. Los usuarios pueden ver la ubicación de cada tienda en un mapa, así como detalles clave como dirección, horario de atención, teléfono y correo electrónico de contacto.
 
 --Tiendas mostradas:--
-- Palermo: 
--Dirección: El Salvador 4577 - Palermo Soho
--Horario: Lunes a Domingos de 12hs a 20hs
--Teléfono: +54 9 11 2233-4455
--Email: davincipalermo@davinci.com
--Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
+  - Palermo: 
+  - Dirección: El Salvador 4577 - Palermo Soho
+  - Horario: Lunes a Domingos de 12hs a 20hs
+  - Teléfono: +54 9 11 2233-4455
+  - Email: davincipalermo@davinci.com
+  - Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
 
 - CABA - Abasto Shopping:
   - Dirección: Corrientes 3247 - CABA
