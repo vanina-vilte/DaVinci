@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.titulo {
+    font-family: "Oswald";
+}
+
+.preguntas {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.faq {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.preguntas > h3 {
+    margin-top: 20px;
+}
