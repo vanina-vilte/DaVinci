@@ -41,7 +41,7 @@ header {
     bottom: -6px;
     left: 0;
     height: 2px;
-    background: #ffffff;
+    background: #D1CCDC;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform .6s;
@@ -56,8 +56,120 @@ header {
 .banner {
     margin-top: 80px;
     width: 100%;
+    background-color: #3D2C2E;
 }
 
 .banner img {
     width: 100%;
+}
+
+/*SECTION 2*/
+.met-pago {
+    display: flex;
+    justify-content: center;
+    background-color: #3D2C2E;
+    padding: 40px 0;
+}
+
+.cont-pago {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.tarjetas {
+    display: flex;
+    flex: 1;
+    font-size: small;
+    gap: 5%;
+}
+
+.tarjetas > img {
+    width: 40px;
+    height: 40px;
+}
+
+.tarjetas > div {
+    width: 80%;
+}
+
+/*SECTION DESTACADOS*/
+.destacados {
+    margin: 40px 0;
+    margin-bottom: 80px;
+}
+
+.destacados > h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.desta {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-desta {
+    width: 250px;
+}
+
+.ropa {
+    width: 100%;
+}
+
+.card-desta > div > .nom-ropa {
+    font-size: 13px;
+    color: #414141;
+    text-decoration: none;
+}
+
+.card-desta > div > .price {
+    font-weight: 600;
+}
+
+.card-desta > div > .cuotas {
+    font-size: small;
+    font-weight: 600;
+    color: rgb(230, 0, 0);
+}
+
+.card-desta > div > button {
+    width: 100%;
+    display: flex;
+    border: none;
+    color: #ffffff;
+    background-color: #3D2C2E;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 8px;
+    justify-content: center;
+}
+
+.card-desta:hover{
+    border: 0.2px solid rgba(148, 148, 148, 0.5);
+}
+
+.card-desta > div > button:hover {
+    color: #dfdfdf;
+    background-color: #524042;
+    transition: 0.5s;
+}
+
+/*SECTION NEWSLETTER*/
+.newsletter {
+    background-color: #3D2C2E;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.new {
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
