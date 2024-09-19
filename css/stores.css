@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.titulo {
+    font-family: "Oswald";
+}
+
+.ubicaciones {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.direcc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.direcc > div > h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3D2C2E;
+}
+
+.direcc > div > iframe {
+    margin-bottom: 20px;
+}
+
+.direcc > div > h5 {
+    margin-top: 15px;
+}
+
+.direcc > div > a, .direcc > div > p {
+    text-decoration: none;
+    color: #4e4748;
+}
+
+.direcc > div > a:hover {
+    color: #3D2C2E;
+    transition: 1s;
+}
