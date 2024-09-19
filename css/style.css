@@ -202,3 +202,44 @@ header {
     width: 100%;
 }
 
+/*FOOTER*/
+footer {
+    background-color: #886F68;
+    padding: 20px 0;
+}
+
+.footi{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.nav-foot {
+    text-align: center;
+}
+
+.nav-foot > a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.redes-sociales {
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.redes-sociales > a {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    color: #886F68; 
+    background-color: #ffffff; 
+    margin: 0 20px;
+    padding: 3px 8px;
+    border-radius: 50%;
+}
