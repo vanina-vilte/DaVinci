@@ -28,6 +28,9 @@ En este apartado tendrán que definir:
 
 ## 4) Descripción del sitio web
 Diseñar un gráfico. en forma de organigrama, en el que se muestre las secciones principales, secciones secundarias y funcionalidades del sitio y el contenido de cada sección.
+![OrginagramaDis drawio](https://github.com/user-attachments/assets/ab3c45f9-8db0-4571-80b3-6b366c040caf)
+
+
 
 ## 5) Rol de cada integrante:
 - **Diseñador UX/UI / Maquetador (M. Denisse R. Ituarte)**:
