@@ -60,22 +60,22 @@ Buzo Over Cross Black: Precio de $74.990, con opción de 6 cuotas de $12.498 sin
 
 --Algunos productos mostrados de la pagina--
 
-Buzo Over H Premium Suede:
-Precio: $129.990
-Cuotas: 6 cuotas sin interés de $21.665
-Descripción: Sudadera de alta calidad con acabado de gamuza premium en color gris oscuro.
-Buzo Over H Brown:
-Precio: $114.990
-Cuotas: 6 cuotas sin interés de $19.165
-Descripción: Sudadera en tono marrón con corte relajado, perfecta para un look casual y cómodo.
-Buzo Over Skull:
-Precio: $74.990
-Cuotas: 6 cuotas sin interés de $12.498
-Descripción: Sudadera en color blanco con detalles de calaveras en las mangas, ideal para estilos urbanos.
-Buzo Over Cross Black:
-Precio: $74.990
-Cuotas: 6 cuotas sin interés de $12.498
-Descripción: Sudadera en color negro con diseño básico y versátil, fácil de combinar con cualquier prenda.
+-Buzo Over H Premium Suede:
+-Precio: $129.990
+-Cuotas: 6 cuotas sin interés de $21.665
+-Descripción: Sudadera de alta calidad con acabado de gamuza premium en color gris oscuro.
+-Buzo Over H Brown:
+-Precio: $114.990
+-Cuotas: 6 cuotas sin interés de $19.165
+-Descripción: Sudadera en tono marrón con corte relajado, perfecta para un look casual y cómodo.
+-Buzo Over Skull:
+-Precio: $74.990
+-Cuotas: 6 cuotas sin interés de $12.498
+-Descripción: Sudadera en color blanco con detalles de calaveras en las mangas, ideal para estilos urbanos.
+-Buzo Over Cross Black:
+-Precio: $74.990
+-Cuotas: 6 cuotas sin interés de $12.498
+-Descripción: Sudadera en color negro con diseño básico y versátil, fácil de combinar con cualquier prenda.
 
 --Funcionalidades:--
 - Botones de Compra: Cada producto cuenta con un botón de "Comprar" que permite a los usuarios añadir el producto al carrito y proceder al pago de manera rápida y eficiente.
@@ -84,29 +84,29 @@ Descripción: Sudadera en color negro con diseño básico y versátil, fácil de
 
 **Sección Stores (Tiendas):** 
 - Descripción:
-Esta sección del sitio web permite a los usuarios obtener información sobre las tiendas físicas de Davinci. Los usuarios pueden ver la ubicación de cada tienda en un mapa, así como detalles clave como dirección, horario de atención, teléfono y correo electrónico de contacto.
+-.Esta sección del sitio web permite a los usuarios obtener información sobre las tiendas físicas de Davinci. Los usuarios pueden ver la ubicación de cada tienda en un mapa, así como detalles clave como dirección, horario de atención, teléfono y correo electrónico de contacto.
 
 --Tiendas mostradas:--
 - Palermo: 
-Dirección: El Salvador 4577 - Palermo Soho
-Horario: Lunes a Domingos de 12hs a 20hs
-Teléfono: +54 9 11 2233-4455
-Email: davincipalermo@davinci.com
-Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
+-Dirección: El Salvador 4577 - Palermo Soho
+-Horario: Lunes a Domingos de 12hs a 20hs
+-Teléfono: +54 9 11 2233-4455
+-Email: davincipalermo@davinci.com
+-Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
 
 - CABA - Abasto Shopping:
-Dirección: Corrientes 3247 - CABA
-Horario: Lunes a Domingos de 10hs a 22hs
-Teléfono: +54 9 11 2233-4455
-Email: davinciabasto@davinci.com
-Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
+-Dirección: Corrientes 3247 - CABA
+-Horario: Lunes a Domingos de 10hs a 22hs
+-Teléfono: +54 9 11 2233-4455
+-Email: davinciabasto@davinci.com
+-Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
 
 - CABA - Dot Baires Shopping:
-Dirección: Vedia 3600 - Local 243 - CABA
-Horario: Lunes a Domingos de 10hs a 22hs
-Teléfono: +54 9 11 2233-4455
-Email: davincidot@davinci.com
-Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
+-Dirección: Vedia 3600 - Local 243 - CABA
+-Horario: Lunes a Domingos de 10hs a 22hs
+-Teléfono: +54 9 11 2233-4455
+-Email: davincidot@davinci.com
+-Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
 
 --Funcionalidades:--
 -Mapas interactivos: Los usuarios pueden hacer clic en "Ampliar el mapa" para ver una versión más detallada de la ubicación en Google Maps.
@@ -114,8 +114,8 @@ Mapa: Ubicación visible en Google Maps con un botón para ampliarlo.
 -Horario de atención: Los horarios de apertura se muestran de manera clara, lo que facilita a los usuarios planificar sus visitas.
 
 **Sección de FAQ (Preguntas Frecuentes):**
-Descripción:
-La sección de Preguntas Frecuentes está diseñada para resolver las dudas más comunes de los clientes sobre los productos, el proceso de compra, y los envíos. A continuación se presentan algunas de las preguntas más comunes y sus respuestas:
+- Descripción:
+-La sección de Preguntas Frecuentes está diseñada para resolver las dudas más comunes de los clientes sobre los productos, el proceso de compra, y los envíos. A continuación se presentan algunas de las preguntas más comunes y sus respuestas:
 
 Contenido:
 ¿De qué se trata Davinci?
