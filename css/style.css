@@ -56,6 +56,188 @@ header {
     transform-origin: left;
 }
 
+.navegacion .btn-subb {
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.navegacion .btn-subb:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: .6s
+}
+
+/*FORMULARIO LOGIN/REGISTER*/
+.fondo {
+    z-index: 100;
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.801);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 25px rgba(82, 82, 82, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform .6s ease height .2s ease;
+    display: none;
+}
+
+.fondo.active-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+
+.contenedor-form {
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+    transition: transform .6s ease;
+}
+
+.contenedor-form.active-form {
+    transform: translateX(0);
+}
+
+.contenedor-form:not(.active-form) {
+    transform: translateX(-400px);
+}
+
+.icono-cerrar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.contenedor-form h2 {
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Oswald";
+}
+
+.contenedor-input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #ffffff;
+    margin: 16px 0;
+}
+
+.contenedor-input label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    font-weight: 600;
+    pointer-events: none;
+    transition: .4s;
+    color: #ffffff;
+}
+
+.contenedor-input input:focus~label,
+.contenedor-input input:valid~label {
+    top: -5px;
+}
+
+.contenedor-input input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #F1EFEF;
+    padding: 0 35px 0 5px;
+}
+
+.contenedor-input .icono {
+    position: absolute;
+    right: 8px;
+    font-size: 1.4em;
+    color: #ffffff;
+    line-height: 57px;
+}
+
+.recordar {
+    font-size: .9em;
+    margin: 25px 0 15px;
+    font-weight: 350;
+}
+
+.recordar label input {
+    accent-color: #ffffff;
+    margin-right: 3px;
+}
+
+.recordar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.recordar a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-form h2 {
+    font-weight: 900;
+}
+
+.contenedor-form .btn-subb {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.contenedor-form .registrar {
+    font-size: .9em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.recordar > label, .registrar > p {
+    color: #888888;
+}
+
+.contenedor-form .registrar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.contenedor-form .registrar a:hover {
+    text-decoration: underline;
+}
+
 /*SECTION 1*/
 .banner {
     margin-top: 80px;
