@@ -40,3 +40,23 @@ loginLink.addEventListener("click", (e) => {
     e.preventDefault();
     mostrarFormularioLogin();
 });
+
+$(document).ready(function() {
+    $('.ropa').each(function(index) {
+        const originalSrc = $(this).attr('src');
+        const hoverSrc = `img/${index * 2 + 2}.png`;
+
+        $(this).mouseenter(function() {
+            setTimeout(() => {
+                $(this).attr('src', hoverSrc);
+            }, 5);
+        });
+
+        $(this).mouseleave(function() {
+            setTimeout(() => {
+                $(this).attr('src', originalSrc);
+            }, 5);
+        });
+    });
+});
+

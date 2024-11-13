@@ -344,6 +344,11 @@ header {
     transition: 0.5s;
 }
 
+.ropa {
+    width: 100%;
+    transition: opacity 0.1s ease; /* Transición rápida de opacidad */
+}
+
 /*SECTION NEWSLETTER*/
 .newsletter {
     background-color: #3D2C2E;
