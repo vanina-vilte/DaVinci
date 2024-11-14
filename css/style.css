@@ -280,116 +280,96 @@ header {
     width: 80%;
 }
 
-/*SECTION DESTACADOS*/
+/* SECTION DESTACADOS */
 .destacados {
-    margin: 40px 0;
-    margin-bottom: 80px;
+    margin: 40px 0 80px;
 }
 
 .destacados > h1 {
     margin-bottom: 40px;
     text-align: center;
+    font-size: 2rem;
+    color: #3D2C2E;
 }
 
 .desta {
     width: 85%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .card-desta {
     width: 250px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
+.card-desta:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Efecto de levantamiento de la imagen */
 .ropa {
     width: 100%;
+    transition: transform 0.3s ease;
+    margin-bottom: 10px; /* Espacio debajo de la imagen */
 }
 
-.card-desta > div > .nom-ropa {
-    font-size: 13px;
-    color: #414141;
+.card-desta:hover .ropa {
+    transform: scale(1.05); /* Escala la imagen solo un poco */
+    transition: transform 0.3s ease;
+}
+
+.nom-ropa {
+    font-size: 14px;
+    color: #3D2C2E;
     text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
-.card-desta > div > .price {
+.price {
     font-weight: 600;
+    font-size: 1.2rem;
+    color: #2d2d2d;
+    margin: 5px 0;
 }
 
-.card-desta > div > .cuotas {
-    font-size: small;
-    font-weight: 600;
+.cuotas {
+    font-size: 0.9rem;
+    font-weight: 500;
     color: rgb(230, 0, 0);
+    margin-bottom: 10px;
 }
 
 .card-desta > div > button {
-    width: 100%;
-    display: flex;
+    width: 100%; /* Hacemos el botón rectangular */
+    height: 45px; /* Ajustamos la altura para hacerlo más alargado */
+    padding: 0; /* Elimina el padding para ajustar el tamaño */
     border: none;
-    color: #ffffff;
     background-color: #3D2C2E;
-    border-radius: 2px;
-    margin-top: 10px;
-    padding: 8px;
-    justify-content: center;
+    color: #ffffff;
+    border-radius: 5px; /* Bordes redondeados */
     cursor: pointer;
-}
-
-.card-desta:hover{
-    border: 0.2px solid rgba(148, 148, 148, 0.5);
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
 }
 
 .card-desta > div > button:hover {
-    color: #dfdfdf;
     background-color: #4e4748;
-    transition: 0.5s;
 }
-
-.ropa {
-    width: 100%;
-    transition: opacity 0.1s ease; /* Transición rápida de opacidad */
-}
-
-/*SECTION NEWSLETTER*/
-.newsletter {
-    background-color: #3D2C2E;
-    color: #ffffff;
-    display: flex;
-}
-
-.new {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.new1 {
-    flex: 5;
-    align-self: center;
-}
-
-.new1 > form > .btn-new{
-    width: 60%;
-}
-
-.new1 > form > .btn-enviar{
-    width: 25px;
-}
-
-.new1 > h2 {
-    margin-bottom: 30px;
-}
-
-.new2 {
-    flex: 1;
-}
-
-.new2 > img {
-    width: 100%;
-}
-
 
 /*FOOTER*/
 .footer-container {
