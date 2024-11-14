@@ -35,8 +35,27 @@
                         <a href="#" class="nom-ropa"> Buzo Over H Premium Suede</a>
                         <p class="price">$129.990</p>
                         <p class="cuotas">6 cuotas sin interés de $21.665</p>
-                        <button class="active">COMPRAR</button>
-                    </div>
+                        
+                        <button class="active" data-model-id="modal1">COMPRAR</button>
+                        
+                        <div id="modal1" class="show-modal">
+                            <div class="overlay">
+
+                                <div class="modal-box">
+                                    <section style="justify-items: center;">
+                                        <img src="/img/close.svg" alt="carrito" class= "closing" height="21px" width="21px" >
+                                        <h2 style="float: left;" >    Checkout </h2>
+                                    </section>
+                                    <h3> Buzo Over H Premium Suede</h3>
+                                    <img src="img/1.png" alt="buzo-negro-frente" class="ropa">
+                                    <p>Se agregó a tu carrito.</p>
+                                    <button class="btn" > Continuar </button>
+                                    <button class="btn"> Ver Carrito </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+
                 </div>
             
                 <div class="card-desta margen">
@@ -45,7 +64,25 @@
                         <a href="#" class="nom-ropa">Buzo Over H Brown</a>
                         <p class="price">$114.990</p>
                         <p class="cuotas">6 cuotas sin interés de $19.165</p>
-                        <button>COMPRAR</button>
+
+                        <button class="active" data-model-id="modal2">COMPRAR</button>
+                        
+                        <div id="modal2" class="modal-box">
+                            <div class="overlay">
+                            <div class="modal-box">
+                                <section style="justify-items: center;">
+                                    <img src="/img/close.svg" alt="carrito" class= "closing" height="21px" width="21px" >
+                                    <h2 style="float: left;" >    Checkout </h2>
+                                </section>
+                                <h3> Buzo Over H Premium Suede</h3>
+                                <img src="img/3.png" alt="buzo-negro-frente" class="ropa">
+                                <p>Se agregó a tu carrito.</p>
+                                <button class="btn" > Continuar </button>
+                                <button class="btn"> Ver Carrito </button>
+                            </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             
@@ -170,5 +207,21 @@
 
         </footer>
     </div>
+
+    <script>
+        const section=document.querySelector("section"),
+            overlay=document.querySelector(".overlay"),
+            activeB =document.querySelector(".active");
+            closingA = document.querySelector(".closing");
+            closingB = document.querySelector(".btn");
+
+
+            activeB.addEventListener("click", () => section.classList.add("active"))
+            closingA.addEventListener("click", () => section.classList.remove("active"))
+            closingB.addEventListener("click", () => section.classList.remove("active"))
+
+            
+
+    </script>
 </body>
 </html>
