@@ -36,9 +36,9 @@
                         <p class="price">$129.990</p>
                         <p class="cuotas">6 cuotas sin interés de $21.665</p>
                         
-                        <button class="active" data-model-id="modal1">COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                         
-                        <div id="modal1" class="show-modal">
+                        <div class="show-modal">
                             <div class="overlay">
 
                                 <div class="modal-box">
@@ -46,9 +46,8 @@
                                         <img src="/img/close.svg" alt="carrito" class= "closing" height="21px" width="21px" >
                                         <h2 style="float: left;" >    Checkout </h2>
                                     </section>
-                                    <h3> Buzo Over H Premium Suede</h3>
-                                    <img src="img/1.png" alt="buzo-negro-frente" class="ropa">
-                                    <p>Se agregó a tu carrito.</p>
+                                    <h3> Se agregó a tu carrito.</h3>
+                                    <img src="img/neww.png" alt="buzo-negro-frente" class="ropa">
                                     <button class="btn" > Continuar </button>
                                     <button class="btn"> Ver Carrito </button>
                                 </div>
@@ -65,24 +64,10 @@
                         <p class="price">$114.990</p>
                         <p class="cuotas">6 cuotas sin interés de $19.165</p>
 
-                        <button class="active" data-model-id="modal2">COMPRAR</button>
+                        <button class="active" >COMPRAR</button>
                         
-                        <div id="modal2" class="modal-box">
-                            <div class="overlay">
-                            <div class="modal-box">
-                                <section style="justify-items: center;">
-                                    <img src="/img/close.svg" alt="carrito" class= "closing" height="21px" width="21px" >
-                                    <h2 style="float: left;" >    Checkout </h2>
-                                </section>
-                                <h3> Buzo Over H Premium Suede</h3>
-                                <img src="img/3.png" alt="buzo-negro-frente" class="ropa">
-                                <p>Se agregó a tu carrito.</p>
-                                <button class="btn" > Continuar </button>
-                                <button class="btn"> Ver Carrito </button>
-                            </div>
-                            </div>
+                       
 
-                        </div>
                     </div>
                 </div>
             
@@ -92,7 +77,7 @@
                         <a href="#" class="nom-ropa">Buzo Over Skull</a>
                         <p class="price">$74.990</p>
                         <p class="cuotas">6 cuotas sin interés de $12.498</p>
-                        <button>COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                     </div>
                 </div>
             
@@ -102,7 +87,7 @@
                         <a href="#" class="nom-ropa">Buzo Over Cross Black</a>
                         <p class="price">$74.990</p>
                         <p class="cuotas">6 cuotas sin interés de $12.498</p>
-                        <button>COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                     </div>
                 </div>
 
@@ -122,7 +107,7 @@
                         <a href="#" class="nom-ropa">Remeron Mouth</a>
                         <p class="price">$38.990</p>
                         <p class="cuotas">6 cuotas sin interés de $6.498</p>
-                        <button>COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                     </div>
                 </div>
             
@@ -132,7 +117,7 @@
                         <a href="#" class="nom-ropa">Remeron Madein</a>
                         <p class="price">$38.990</p>
                         <p class="cuotas">6 cuotas sin interés de $6.498</p>
-                        <button>COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                     </div>
                 </div>
             
@@ -142,7 +127,7 @@
                         <a href="#" class="nom-ropa">Remeron BeNight</a>
                         <p class="price">$32.990</p>
                         <p class="cuotas">6 cuotas sin interés de $5.498</p>
-                        <button>COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                     </div>
                 </div>
 
@@ -162,7 +147,7 @@
                         <a href="#" class="nom-ropa">Baggy Carpenter Green</a>
                         <p class="price">$69.990</p>
                         <p class="cuotas">6 cuotas sin interés de $11.665</p>
-                        <button>COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                     </div>
                 </div>
             
@@ -172,7 +157,7 @@
                         <a href="#" class="nom-ropa">Pantalon Cargo #1</a>
                         <p class="price">$108.990</p>
                         <p class="cuotas">6 cuotas sin interés de $18.165</p>
-                        <button>COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                     </div>
                 </div>
             
@@ -182,7 +167,7 @@
                         <a href="#" class="nom-ropa">Pant Cut Wash Denim</a>
                         <p class="price">$89.990</p>
                         <p class="cuotas">6 cuotas sin interés de $14.998</p>
-                        <button>COMPRAR</button>
+                        <button class="active">COMPRAR</button>
                     </div>
                 </div>
             
@@ -210,17 +195,28 @@
 
     <script>
         const section=document.querySelector("section"),
-            overlay=document.querySelector(".overlay"),
-            activeB =document.querySelector(".active");
-            closingA = document.querySelector(".closing");
-            closingB = document.querySelector(".btn");
+            overlay=document.querySelector(".overlay");
+            var openBtns = document.getElementsByClassName("active");
+            var spans = document.getElementsByClassName("closing");
+            var spansButtons = document.getElementsByClassName("btn");
 
+            for(let i=0;i<openBtns.length;i++){
+                openBtns[i].onclick = function() {
+                    addEventListener("click", () => section.classList.add("active"))
+                }
+            }
+            for(let i=0;i<spans.length;i++){
+                spans[i].onclick = function() {
+                    addEventListener("click", () => section.classList.remove("active"))
+                }
+            }
 
-            activeB.addEventListener("click", () => section.classList.add("active"))
-            closingA.addEventListener("click", () => section.classList.remove("active"))
-            closingB.addEventListener("click", () => section.classList.remove("active"))
+            for(let i=0;i<spans.length;i++){
+                spansButtons[i].onclick = function() {
+                    addEventListener("click", () => section.classList.remove("active"))
+                }
+            }
 
-            
 
     </script>
 </body>
