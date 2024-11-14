@@ -391,136 +391,116 @@ header {
 }
 
 /*FOOTER*/
-footer {
-    background-color: #886F68;
-    padding: 20px 0;
-}
-
-.footi{
-    width: 70%;
+.footer-container {
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
-}
-
-.nav-foot {
+    align-items: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 40px;
     text-align: center;
 }
 
-.nav-foot > a{
-    text-decoration: none;
-    color: #ffffff;
-    margin: 0 10px;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 20px 0;
 }
 
-.redes-sociales {
+.footer-brand {
+    text-align: left;
+    max-width: 400px;
+}
+
+.footer-brand h3 {
+    font-size: 24px;
+    color: #e8d5d0;
+    margin-bottom: 10px;
+}
+
+.footer-brand p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.nav-center {
+    text-align: center;
+}
+
+.nav-center h4 {
+    font-size: 19px;
+    color: #e8d5d0;
+    margin-bottom: 8px;
+}
+
+.nav-foot {
     display: flex;
-    width: 20%;
-    margin: 0 auto;
+    gap: 20px;
+}
+
+.nav-foot a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.nav-foot a:hover {
+    color: #e8d5d0;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line {
+    width: 120px; /* Tamaño de la línea */
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.3;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #886F68;
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 18px;
+}
+
+.social-icon:hover {
+    background-color: #e8d5d0;
+    color: #4A403A;
+    transform: scale(1.1);
+}
+
+.footer-info {
+    font-size: 13px;
+    opacity: 0.8;
     margin-top: 20px;
 }
 
-.redes-sociales > a {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    text-decoration: none;
-    color: #886F68; 
-    background-color: #ffffff; 
-    margin: 0 20px;
-    padding: 3px 8px;
-    border-radius: 50%;
-}
-
-/*shop*/
-
-.modal-box{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.btn{
-    width: 100%;
-    display: flex;
-    border: none;
+.footer-info a {
     color: #ffffff;
-    background-color: #3D2C2E;
-    border-radius: 2px;
-    margin-top: 10px;
-    padding: 8px;
-    justify-content: center;
-    cursor: pointer;;
-
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
 }
 
-.btn:hover{
-   background-color:  rgba(148, 148, 148, 0.5);
-   transition: 0.5s;
-}
-
-.btn > div > button:hover {
-    color: #dfdfdf;
-    background-color: #4e4748;
-    transition: 0.5s;
-}
-
-section.active.show-modal{
-    display: none;
-}
-
-.overlay {
-    position: fixed;
-    inset: 0;
-    z-index: 9999;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    visibility: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    pointer-events: none;
-    transition: opacity 0.3s ease-in-out, visibility 0s 0.3s;
-}
-
-section.active .overlay{
-    opacity: 1;
-    pointer-events: auto;
-    display: flex;
-    transition: opacity 0.3s ease-in-out, visibility 0s 0.0s;
-    
-
-}
-
-section.active .modal-box{
-    opacity: 1;
-    pointer-events: auto;
-    display: flex;
-    transition: opacity 0.3s ease-in-out, visibility 0s 0.0s;
-}
-
-.modal-box {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: auto;
-    max-width: 380px;
-    visibility: 0;
-    width: 100%;
-    padding: 30px;
-    border-radius: 24px;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    background-color: rgb(255,255,255);
-    outline: none;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease-in-out visibility 0s 0.3s; /*BUeno, no pude hacer q la animacion funcione lpm*/
-}
-
-.closing{
-    cursor: pointer;
-    float: right;
+.footer-info a:hover {
+    color: #e8d5d0;
 }
