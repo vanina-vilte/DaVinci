@@ -106,3 +106,20 @@ section.active .modal-box{
     pointer-events: none;
     transition: opacity 0.3s ease-in-out visibility 0s 0.3s;
 }
+
+.closing {
+    float: right;
+    cursor: pointer;
+    height: 21px;
+    width: 21px;
+}
+
+/* Estilo para el título del modal */
+.modal-box h2 {
+    float: left;
+}
+
+/* Centrar contenido en la sección */
+.modal-box section {
+    justify-items: center;
+}
