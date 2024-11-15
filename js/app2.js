@@ -41,28 +41,34 @@ loginLink.addEventListener("click", (e) => {
     mostrarFormularioLogin();
 });
 
-const section=document.querySelector("section"),
-overlay=document.querySelector(".overlay");
-var openBtns = document.getElementsByClassName("active");
-var spans = document.getElementsByClassName("closing");
-var spansButtons = document.getElementsByClassName("btn");
+const section = document.querySelector("section");
+const overlay = document.querySelector(".overlay");
+const openBtns = document.getElementsByClassName("active");
+const spans = document.getElementsByClassName("closing");
+const spansButtons = document.getElementsByClassName("btn");
+const modalImg = document.querySelector(".modal-img"); // Selecciona la imagen en el modal
 
-for(let i=0;i<openBtns.length;i++){
+for (let i = 0; i < openBtns.length; i++) {
     openBtns[i].onclick = function() {
-        addEventListener("click", () => section.classList.add("active"))
-    }
-}
-for(let i=0;i<spans.length;i++){
-    spans[i].onclick = function() {
-        addEventListener("click", () => section.classList.remove("active"))
-    }
+        // Obtiene la imagen correspondiente de la card
+        const cardImg = openBtns[i].parentNode.parentNode.querySelector(".ropa").getAttribute("src");
+        modalImg.setAttribute("src", cardImg); // Establece la imagen en el modal
+        section.classList.add("active");
+    };
 }
 
-for(let i=0;i<spans.length;i++){
-    spansButtons[i].onclick = function() {
-        addEventListener("click", () => section.classList.remove("active"))
-    }
+for (let i = 0; i < spans.length; i++) {
+    spans[i].onclick = function() {
+        section.classList.remove("active");
+    };
 }
+
+for (let i = 0; i < spansButtons.length; i++) {
+    spansButtons[i].onclick = function() {
+        section.classList.remove("active");
+    };
+}
+
 
 $(document).ready(function() {
     $(".card-desta .ropa").each(function() {
