@@ -31,19 +31,19 @@
             <span class="icono-cerrar"><i class="fa-solid fa-xmark"></i></span>
             <div class="contenedor-form login active-form">
                 <h2>Iniciar sesión</h2>
-                <form action="#" id="loginForm">
+                <form action="#">
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-envelope"></i></span>
-                        <input type="email" id="loginEmail" name="loginEmail" required>
-                        <label for="loginEmail">Email</label>
+                        <input type="email" required>
+                        <label for="#">Email</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-lock"></i></span>
-                        <input type="password" id="loginPassword" name="loginPassword" required>
-                        <label for="loginPassword">Contraseña</label>
+                        <input type="password" required>
+                        <label for="#">Contraseña</label>
                     </div>
                     <div class="recordar d-flex justify-content-between">
-                        <label><input type="checkbox"> Recordar sesión</label>
+                        <label for="#"><input type="checkbox">Recordar sesión</label>
                         <a href="#">¿Olvidaste la contraseña?</a>
                     </div>
                     <button type="submit" class="btn-subb">Iniciar sesión</button>
@@ -52,42 +52,42 @@
                     </div>
                 </form>
             </div>
-            
+
             <div class="contenedor-form registrar">
                 <h2>Registrarse</h2>
-                <form action="#" id="registerForm">
+                <form action="#">
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-user"></i></span>
-                        <input type="text" id="firstName" name="firstName" required>
-                        <label for="firstName">Nombre</label>
+                        <input type="text" required>
+                        <label for="#">Nombre</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-user"></i></span>
-                        <input type="text" id="lastName" name="lastName" required>
-                        <label for="lastName">Apellido</label>
+                        <input type="text" required>
+                        <label for="#">Apellido</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-envelope"></i></span>
-                        <input type="email" id="registerEmail" name="registerEmail" required>
-                        <label for="registerEmail">Email</label>
+                        <input type="email" required>
+                        <label for="#">Email</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-lock"></i></span>
-                        <input type="password" id="registerPassword" name="registerPassword" required>
-                        <label for="registerPassword">Contraseña</label>
+                        <input type="password" required>
+                        <label for="#">Contraseña</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-lock"></i></span>
-                        <input type="password" id="confirmPassword" name="confirmPassword" required>
-                        <label for="confirmPassword">Confirmar Contraseña</label>
+                        <input type="password" required>
+                        <label for="#">Confirmar Contraseña</label>
                     </div>
                     <button type="submit" class="btn-subb">Registrarme</button>
+
                     <div class="registrar">
                         <p>¿Tienes una cuenta? <a href="#" class="login-link">Iniciar sesión</a></p>
                     </div>
                 </form>
             </div>
-            
         </div>
         <section class="ubicaciones">
             <div class="direcc">
@@ -165,6 +165,32 @@
             </div>
         </footer>
 
+
+<!-- Modal de Información Legal -->
+<div id="modalLegal" class="modal">
+    <div class="modal-content">
+        <h2>Información Legal</h2>
+        <p>Bienvenido a DaVinci. Al utilizar nuestra aplicación, aceptas cumplir con los siguientes términos y condiciones.</p>
+        
+        <h3>1. Uso de la Aplicación</h3>
+        <p>Esta plataforma está destinada a la compra de productos sustentables. Cualquier uso indebido de la plataforma, como la distribución de contenido inapropiado, puede resultar en la suspensión de la cuenta.</p>
+        
+        <h3>2. Contenidos</h3>
+        <p>La información y contenido publicado es responsabilidad de los usuarios y la empresa. Sin embargo, DaVinci no garantiza la exactitud total de los datos proporcionados.</p>
+
+        <h3>3. Propiedad Intelectual</h3>
+        <p>Todo el contenido y diseño de esta plataforma está protegido por derechos de autor. No está permitido reproducir, copiar o distribuir cualquier parte sin nuestro permiso expreso.</p>
+
+        <h3>4. Exención de Responsabilidad</h3>
+        <p>No somos responsables de daños derivados del uso de esta plataforma, incluyendo fallos técnicos, pérdida de datos o cualquier otro perjuicio.</p>
+
+        <h3>5. Modificaciones</h3>
+        <p>Nos reservamos el derecho de modificar estos términos y condiciones en cualquier momento. Recomendamos revisarlos periódicamente.</p>
+
+        <button class="modal-close-button" onclick="closeModal('modalLegal')">Cerrar</button>
+    </div>
+</div>
+
 <!-- Modal de Política de Privacidad -->
 <div id="modalPrivacidad" class="modal">
     <div class="modal-content">
@@ -190,8 +216,5 @@
 </div>
 
     </div>
-    <script src="js/app.js"></script>
-    <script src="https://kit.fontawesome.com/1f08a9747b.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </body>
 </html>
