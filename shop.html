@@ -32,19 +32,19 @@
             <span class="icono-cerrar"><i class="fa-solid fa-xmark"></i></span>
             <div class="contenedor-form login active-form">
                 <h2>Iniciar sesión</h2>
-                <form action="#">
+                <form action="#" id="loginForm">
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-envelope"></i></span>
-                        <input type="email" required>
-                        <label for="#">Email</label>
+                        <input type="email" id="loginEmail" name="loginEmail" required>
+                        <label for="loginEmail">Email</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-lock"></i></span>
-                        <input type="password" required>
-                        <label for="#">Contraseña</label>
+                        <input type="password" id="loginPassword" name="loginPassword" required>
+                        <label for="loginPassword">Contraseña</label>
                     </div>
                     <div class="recordar d-flex justify-content-between">
-                        <label for="#"><input type="checkbox">Recordar sesión</label>
+                        <label><input type="checkbox"> Recordar sesión</label>
                         <a href="#">¿Olvidaste la contraseña?</a>
                     </div>
                     <button type="submit" class="btn-subb">Iniciar sesión</button>
@@ -53,42 +53,42 @@
                     </div>
                 </form>
             </div>
-
+            
             <div class="contenedor-form registrar">
                 <h2>Registrarse</h2>
-                <form action="#">
+                <form action="#" id="registerForm">
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-user"></i></span>
-                        <input type="text" required>
-                        <label for="#">Nombre</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                        <label for="firstName">Nombre</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-user"></i></span>
-                        <input type="text" required>
-                        <label for="#">Apellido</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <label for="lastName">Apellido</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-envelope"></i></span>
-                        <input type="email" required>
-                        <label for="#">Email</label>
+                        <input type="email" id="registerEmail" name="registerEmail" required>
+                        <label for="registerEmail">Email</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-lock"></i></span>
-                        <input type="password" required>
-                        <label for="#">Contraseña</label>
+                        <input type="password" id="registerPassword" name="registerPassword" required>
+                        <label for="registerPassword">Contraseña</label>
                     </div>
                     <div class="contenedor-input">
                         <span class="icono"><i class="fa-solid fa-lock"></i></span>
-                        <input type="password" required>
-                        <label for="#">Confirmar Contraseña</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        <label for="confirmPassword">Confirmar Contraseña</label>
                     </div>
                     <button type="submit" class="btn-subb">Registrarme</button>
-
                     <div class="registrar">
                         <p>¿Tienes una cuenta? <a href="#" class="login-link">Iniciar sesión</a></p>
                     </div>
                 </form>
             </div>
+            
         </div>
         <section class="destacados shopp">
             <h1 class="titulo">ALL</h1>

@@ -6,6 +6,13 @@ const registrarLink = document.querySelector(".registrar-link");
 const loginLink = document.querySelector(".login-link");
 const contenedorFormLogin = document.querySelector(".contenedor-form.login");
 const contenedorFormRegistrar = document.querySelector(".contenedor-form.registrar");
+const headerIniciarSesionBtn = document.querySelector(".navegacion .btn-subb");
+const headerUserIcon = document.createElement("i"); // Icono de usuario
+const headerCartIcon = document.createElement("i"); // Icono de carrito
+
+// Configura los íconos
+headerUserIcon.classList.add("fa", "fa-user", "header-icon");
+headerCartIcon.classList.add("fa", "fa-shopping-cart", "header-icon");
 
 // Función para mostrar el formulario de inicio de sesión
 function mostrarFormularioLogin() {
@@ -40,6 +47,25 @@ loginLink.addEventListener("click", (e) => {
     e.preventDefault();
     mostrarFormularioLogin();
 });
+
+// Eventos de envío para los formularios
+document.getElementById("loginForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    iniciarSesionExitoso();
+});
+
+document.getElementById("registerForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    iniciarSesionExitoso();
+});
+
+// Función para ejecutar después del inicio de sesión o registro exitoso
+function iniciarSesionExitoso() {
+    headerIniciarSesionBtn.style.display = "none"; // Oculta el botón de "Iniciar sesión" en el header
+    document.querySelector(".navegacion").appendChild(headerUserIcon); // Agrega el icono de usuario
+    document.querySelector(".navegacion").appendChild(headerCartIcon); // Agrega el icono de carrito
+    fondo.classList.remove("active-btn"); // Cierra el modal
+}
 
 const section = document.querySelector("section");
 const overlay = document.querySelector(".overlay");
