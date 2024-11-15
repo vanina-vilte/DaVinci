@@ -123,3 +123,82 @@ section.active .modal-box{
 .modal-box section {
     justify-items: center;
 }
+
+/* Politicas y Condiciones */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: opacity 0.3s ease;
+}
+
+/* Contenedor del contenido del modal */
+.modal-content {
+    background-color: #ffffff;
+    margin: 5% auto;
+    padding: 30px 40px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.3s ease-out;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye el contenido de forma equitativa */
+    height: auto;  /* Permite que el modal crezca según el contenido */
+    max-height: 80%; /* Limita la altura máxima del modal */
+    overflow-y: auto; /* Habilitar desplazamiento vertical si el contenido es largo */
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Botón de cierre en la parte inferior derecha */
+.modal-close-button {
+    color: #fff;
+    background-color: #666;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 10px 20px;
+    align-self: flex-end; /* Alinea el botón a la derecha */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Añade espacio entre el contenido y el botón */
+}
+
+.modal-close-button:hover {
+    background-color: #3D2C2E; /* Mismo color que la línea del título */
+}
+
+/* Títulos en el modal */
+.modal-content h2 {
+    font-size: 26px;
+    margin: 0 0 20px;
+    color: #444;
+    border-bottom: 2px solid #3D2C2E; /* Línea de color #3D2C2E */
+    padding-bottom: 8px;
+}
+
+.modal-content h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #666;
+}
+
+/* Texto del modal */
+.modal-content p {
+    margin-bottom: 15px;
+    color: #555;
+}
