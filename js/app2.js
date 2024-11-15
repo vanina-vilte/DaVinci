@@ -102,3 +102,24 @@ $(document).ready(function() {
         });
     });
 });
+
+// Función para abrir el modal
+function openModal(modalId) {
+    var modal = document.getElementById(modalId);
+    modal.style.display = "block";
+    // Se asegura de que el modal reciba foco, si es necesario
+    modal.querySelector('.modal-close-button').focus();
+}
+
+// Función para cerrar el modal
+function closeModal(modalId) {
+    var modal = document.getElementById(modalId);
+    modal.style.display = "none";
+}
+
+// Cerrar el modal al hacer clic fuera de él
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+        event.target.style.display = "none";
+    }
+};
